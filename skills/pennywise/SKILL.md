@@ -18,6 +18,13 @@ metadata:
 
 # PennyWise（coder 视角）
 
+## 仓库归属（别搞混）
+
+- **主人的完整项目**：`github.com/hehehe1234567894/PennyWise` —— Web/PWA + Node 服务端 + SQLite，
+  版本日期制 v26.x，他本人维护。要改它：fork 到 MIEOEMI → 开分支 → PR，**不要直接推、也不要另起炉灶**
+- **本 CLI**：`github.com/MIEOEMI/pennywise-cli`（原 MIEOEMI/pennywise，2026-11-22 改名）——
+  coder 从零写的零依赖命令行版，和上面那个是两条线，互不同步
+
 ## 分工铁律（主人 2026-11-16 定）
 
 - **管道全自动**：邮箱拉取(fetch-bills.py)→导入(ingest)由 cron 机器跑，**不需要 coder 每次手动执行**
